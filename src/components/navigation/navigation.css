@@ -1,0 +1,36 @@
+
+li {
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Arial Black";
+    margin: 10px;
+
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    background-color: #23b5d3;
+}
+
+a:hover {
+    color: #7e09dc;
+}
+
+.images{
+    width: 30px;
+    height: 30px;
+}
