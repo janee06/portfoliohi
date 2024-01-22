@@ -4,10 +4,12 @@ import NavigationMenu from "../components/navigation/navigation_menu";
 import Skills from "../components/skills/skillset";
 import './homepage.css'
 import Carousel from "../components/carousel/carousel";
-import TypesExample from "../components/bootstrap/bootbuttons";
 import Footer from "../footer/footer";
+
 function Homepage(){
     return (
+
+
         <div className={"conteiner"}>
 
             <section id="navigation">
@@ -43,7 +45,6 @@ function Homepage(){
 
             </section>
             {<Carousel/>}
-            <TypesExample/>
             <Footer/>
 
         </div>

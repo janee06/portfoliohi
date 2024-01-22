@@ -2,16 +2,19 @@ import React from 'react';
 import './navigation.css'
 function NavigationMenu(title, pages) {
     return (
+        <nav className={"navbar"}>
         <div className={"navigation"}>
 
-        <ul>
+        <ul className={"navlinks"}>
+
 
             <li><img className={"images"} src={"man.png"}/>
-                <a href="#section1">O mně</a></li>
-            <li><img className={"images"} src={"bag.png"}/> <a href="#section2">Portfolio</a></li>
-            <li><img className={"images"} src={"phone.png"}/> <a href="#section3">Kontakt</a></li>
+                <a href="#omne">O mně</a></li>
+            <li><img className={"images"} src={"bag.png"}/> <a href="#portfolio">Portfolio</a></li>
+            <li><img className={"images"} src={"phone.png"}/> <a href="#kontakt">Kontakt</a></li>
         </ul>
         </div>
+</nav>
     );
 
 }

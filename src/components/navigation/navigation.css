@@ -1,4 +1,15 @@
+.navbar{
+    align-items: center;
+    justify-content: center;
 
+
+}
+.navlinks{
+    align-items: center;
+
+
+
+}
 li {
     margin-right: 25px;
     margin-top: 25px;
